@@ -7,4 +7,4 @@ class BlogListView(View):
         contexto = {
             
         }
-        return render(request, 'blo_list.html', contexto)
+        return render(request, 'blog_list.html', contexto)
